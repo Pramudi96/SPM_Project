@@ -1,0 +1,53 @@
+
+
+int time = 22;
+if (time < 10) {
+  System.out.println("Good morning.");
+} else if (time < 20) {
+  System.out.println("Good day.");
+} else {
+  System.out.println("Good evening.");
+}
+
+switch (x) {     
+case 0: 
+        
+println("x has a value of 0!");
+        
+break;     
+case 1:
+        
+println("x has a value of 1!");
+        
+break;
+    
+case true:
+        
+println("x is true!");
+        
+break;
+    
+case false:
+        
+println("x is false!");
+        
+break;
+    
+case "hello world":
+        
+println("x says hello!");
+        
+break;
+        
+    
+default:       
+println("x has a value that is not specified.");
+
+}
+try {
+      int[] myNumbers = {1, 2, 3};
+      System.out.println(myNumbers[10]);
+    } catch (Exception e) {
+      System.out.println("Something went wrong.");
+    }
+}
